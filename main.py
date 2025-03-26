@@ -8,7 +8,7 @@ app = FastAPI()
 
 # Load model
 input_size = 2
-hidden_size = 64
+hidden_size = 20
 output_size = 2
 
 model = RNNModel(input_size, hidden_size, output_size)
